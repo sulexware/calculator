@@ -4,36 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" rel="Javascript" defer></script>
     <title>Calculator</title>
 </head>
 <body>
         <div id="container">
             <div id="display">0</div>
             <div id="btn">
-                <button id="ac">AC</button>
-                <button id="plus-minus">+/-</button>
-                <button id="modulo">%</button>
-                <button id="divide">/</button>
-
-                <button id="seven">7</button>
-                <button id="eight">8</button>
-                <button id="nine">9</button>
-                <button id="multiply">X</button>
-
-                <button id="ac">4</button>
-                <button id="plus-minus">5</button>
-                <button id="modulo">6</button>
-                <button id="minus">-</button>
-
-                <button id="one">1</button>
-                <button id="two">2</button>
-                <button id="three">3</button>
-                <button id="plus">+</button>
-
-                <button id="zero">0</button>
-                <button id="dot">.</button>
-                <button id="equals">=</button>
-                
+                <div class="row">
+                    <button id="ac">AC</button>
+                    <button id="plus-minus">+/-</button>
+                    <button id="modulo">%</button>
+                    <button id="divide">/</button>
+                </div>
+                <div class="row">
+                    <button id="seven" class="greyed">7</button>
+                    <button id="eight" class="greyed">8</button>
+                    <button id="nine" class="greyed">9</button>
+                    <button id="multiply">X</button>
+                </div>
+                <div class="row">
+                    <button id="ac" class="greyed">4</button>
+                    <button id="plus-minus" class="greyed">5</button>
+                    <button id="modulo" class="greyed">6</button>
+                    <button id="minus">-</button>
+                </div>
+                <div class="row">
+                    <button id="one" class="greyed">1</button>
+                    <button id="two" class="greyed">2</button>
+                    <button id="three" class="greyed">3</button>
+                    <button id="plus">+</button>
+                </div>
+                <div class="row">
+                    <button id="zero" class="greyed">0</button>
+                    <button id="dot" class="greyed">.</button>
+                    <button id="equals">=</button>
+                </div>
 
             </div>
 
